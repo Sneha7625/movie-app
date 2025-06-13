@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Contact - The Movie Maze</title>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html" style="color: #eee; text-decoration: none;">The Movie Maze</a></h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="static-page fade-in">
+    <h2 class="page-heading">Get in Touch 📬</h2>
+
+    <p class="contact-intro slide-up">
+      I'm thrilled you're here! 🙌 Whether you’ve stumbled upon this page out of curiosity or have a passionate recommendation to make, I’m always excited to connect. 💬<br><br>
+      Feel free to send feedback about the website, collaborate on creative ideas, or just drop by to talk about your favorite movies! 🎥✨
+      <strong>Let’s make movie magic together!</strong>
+    </p>
+
+    <!-- Formspree Integration -->
+    <form class="contact-form fancy-form fade-in" action="https://formspree.io/f/mpwrdbgp" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Contact Form Submission from The Movie Maze">
+
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject of your message" />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
+      </div>
+
+      <button type="submit" class="send-button">Send Message ✨</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Sneha Agarwal | Drop a message, not just a comment 🎥</p>
+  </footer>
+</body>
+</html>
